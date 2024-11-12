@@ -2,14 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-meu-primeiro',
-  templateUrl: './meu-primeiro.component.html',
-  styleUrls: ['./meu-primeiro.component.scss']
+  template: '<p>meu primeiro com dev angular</p>',
+  styleUrls: ['./meu-primeiro.component.scss'],
 })
 export class MeuPrimeiroComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
